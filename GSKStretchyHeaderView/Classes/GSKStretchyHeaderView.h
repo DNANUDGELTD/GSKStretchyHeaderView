@@ -136,6 +136,7 @@ typedef NS_ENUM(NSUInteger, GSKStretchyHeaderViewExpansionMode) {
 - (void)setMaximumContentHeight:(CGFloat)maximumContentHeight
                   resetAnimated:(BOOL)animated;
 
+@property (nonatomic, weak) UIScrollView *scrollView;
 @end
 
 
